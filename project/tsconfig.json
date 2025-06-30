@@ -1,0 +1,70 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/user"
+    },
+    {
+      "path": "./apps/blog"
+    },
+    {
+      "path": "./apps/notify"
+    },
+    {
+      "path": "./apps/api"
+    },
+    {
+      "path": "./libs/shared/core"
+    },
+    {
+      "path": "./libs/shared/helpers"
+    },
+    {
+      "path": "./libs/user/authentication"
+    },
+    {
+      "path": "./libs/user/blog-user"
+    },
+    {
+      "path": "./libs/shared/data-access"
+    },
+    {
+      "path": "./libs/user/user-config"
+    },
+    {
+      "path": "./libs/blog/blog-models"
+    },
+    {
+      "path": "./libs/blog/blog-like"
+    },
+    {
+      "path": "./libs/blog/blog-comment"
+    },
+    {
+      "path": "./libs/blog/blog-post"
+    },
+    {
+      "path": "./libs/shared/pipes"
+    },
+    {
+      "path": "./apps/file-vault"
+    },
+    {
+      "path": "./libs/file-vault/file-vault-config"
+    },
+    {
+      "path": "./libs/file-vault/file-uploader"
+    },
+    {
+      "path": "./libs/notify/notify-config"
+    },
+    {
+      "path": "./libs/notify/email-subscriber"
+    },
+    {
+      "path": "./libs/user/user-notify"
+    }
+  ]
+}

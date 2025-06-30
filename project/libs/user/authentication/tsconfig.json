@@ -1,0 +1,28 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "../user-notify"
+    },
+    {
+      "path": "../user-config"
+    },
+    {
+      "path": "../../shared/pipes"
+    },
+    {
+      "path": "../../shared/helpers"
+    },
+    {
+      "path": "../../shared/core"
+    },
+    {
+      "path": "../blog-user"
+    },
+    {
+      "path": "./tsconfig.lib.json"
+    }
+  ]
+}

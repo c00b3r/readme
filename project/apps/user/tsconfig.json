@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "../../libs/user/user-notify"
+    },
+    {
+      "path": "../../libs/user/user-config"
+    },
+    {
+      "path": "../../libs/user/authentication"
+    },
+    {
+      "path": "../../libs/user/blog-user"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}

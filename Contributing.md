@@ -24,7 +24,7 @@ git push
 ¹ В `academy` должна быть ссылка на репозиторий Академии. Если его там нет, добавьте:
 
 ```
-git remote add academy {{sshUrl}}
+git remote add academy git@github.com:htmlacademy-nestjs/1309637-readme-9.git
 ```
 
 Когда вы обновили `master`, создайте ветку для нового задания:
